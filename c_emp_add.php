@@ -64,12 +64,12 @@ $records = mysqli_query($conn, $sql);
 					  <h2 style="padding-top:40px;">Add New Employee</h2>
                     <div class="form-group">
                         <label>First_Name</label>
-                        <input type="text" class="form-control" required="required" name="fname" placeholder="First_Name">
+                        <input type="text" class="form-control" required="required" autocomplete="off" name="fname" placeholder="First_Name">
                         <span class="help-block"></span>
                     </div>
                     <div class="form-group">
                         <label>Last_Name</label>
-                        <input type="text" class="form-control" required="required" name="lname" placeholder="Last_Name">
+                        <input type="text" class="form-control" required="required" autocomplete="off" name="lname" placeholder="Last_Name">
                         <span class="help-block"></span>
                     </div>
 
@@ -102,7 +102,7 @@ $records = mysqli_query($conn, $sql);
                         <label for="inputAge">Department_Manager</label>
                         <select class="form-control" name="dmanager">
 							<option value="">Manager</option>
-						<option value="">Self</option>
+						<option value="M">Self</option>
 						 
                         </select> <span class="help-block"></span>
                     </div>
@@ -110,13 +110,13 @@ $records = mysqli_query($conn, $sql);
                     <div class="form-group">
                         <label for="inputAge">Join_Date</label>
                  
-                       <input type="date" class="form-control" name="date" placeholder="YYYY-MM-DD"></p>
+                       <input type="date" class="form-control" id="datepicker" name="date"  placeholder="YYYY-MM-DD"></p>
                         <span class="help-block"></span>
                     </div>
                     
                     <div class="form-group ">
                         <label for="inputLName">Salary</label>
-                        <input type="text" class="form-control" required="required" name="salary" placeholder="Salary">
+                        <input type="text" class="form-control" required="required" autocomplete="off" name="salary" placeholder="Salary">
                         <span class="help-block"></span>
                     </div>
                     

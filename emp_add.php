@@ -97,14 +97,14 @@
 
                     <div class="form-group">
                         <label for="inputAge">Join Date</label>
-                   <!--    <input type="text" class="form-control" required="required" name="date">-->
+                   
                        <input type="date" class="form-control" name="date" placeholder="YYYY-MM-DD"></p>
                         <span class="help-block"></span>
                     </div>
                     <div class="form-actions">
 						
 						<input type="submit" class="btn btn-primary" name="submit" value="Submit"></tr>
-                       <!--<button type="submit" class="btn btn-success">Create</button>-->
+                       
                         <a class="btn btn btn-default" href="employee.php">Back</a>
                     </div>
                 </form>
